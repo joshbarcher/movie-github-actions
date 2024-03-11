@@ -26,8 +26,7 @@ public class MovieAppApplication
             new Movie(0, "The Godfather", 1972, "Crime", "R", false),
             new Movie(0, "Avatar", 2009, "Action", "PG-13", true),
             new Movie(0, "The Lord of the Rings: The Return of the King", 2003, "Fantasy", "PG-13", false),
-            new Movie(0, "Jurassic Park", 1993, "Science Fiction", "PG-13", false),
-            new Movie(0, "Forrest Gump", 1994, "Drama", "PG-13", false)
+            new Movie(0, "Jurassic Park", 1993, "Science Fiction", "PG-13", false)
         ));
 
         dbRepo.saveAll(movies);
